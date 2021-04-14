@@ -115,5 +115,5 @@ if __name__ == "__main__":
     # print(q.get())
     df = pd.DataFrame({'Product_Name': products,'Price': prices, 'Ratings': ratings, 'Product_Link': links})
     print(df)
-    df.to_csv('products_10.csv', index=False, encoding='utf-8')
+    df.to_csv('products_10.csv', index=False, encoding='utf-8')   #saving csv file
 
